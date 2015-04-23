@@ -35,8 +35,8 @@ NSString *const kDataServiceURL = @"http://datasync-datastore.cdk.vcloud.cfms-ap
 //NSString *const kDataClientID = @"aedc2fcf-d7bb-4e80-8505-0540afe17974";
 //NSString *const kDataClientSecret = @"AMtcNHQR6Ur89ZQcn8CNper-BGCRpOji4Jz1RMJ4eGO-r1R6jlre0kJ6ji1zvX-I2SSqqo1HlH9V-MVETH_pr0Y";
 
-NSString *const kDataClientID = @"d6104324-d576-46fe-8403-f270b0e280d8";
-NSString *const kDataClientSecret = @"V5tUNY8PYS_rblVmGEoZI7LSBBGGGxDIuU__V-9vqlBuiCFu54zHiEXhdqYZ8U10qFJ9Ajv8i3ocuAx29vEVlg";
+NSString *const kDataClientID = @"681e1a9e-084f-4189-b99a-0853eff932e8";
+NSString *const kDataClientSecret = @"AIL6KSTXNcXW1EfEtvFGuLkUoGHFWky8ff2Xk2SUE5r-kIL_zHuyxAAedxbHaew-UgPzxbnDoYyZm4Q2zPh1Ml0";
 
 
 /* API Gateway Parameters */
