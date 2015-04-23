@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>pivotal.push.serviceUrl</key>
-	<string>http://transit-push.cfapps.io</string>
+	<string>http://push-notifications.cdk.vcloud.cfms-apps.com</string>
 	<key>pivotal.push.platformUuidDevelopment</key>
-	<string>15a001cd-f200-40a1-b052-763fbeee12a3</string>
+	<string>9793eb99-56a9-49b7-8a5f-31c9047b676a</string>
 	<key>pivotal.push.platformSecretDevelopment</key>
-	<string>84def001-645b-4dfa-af5f-e2659dd27b0f</string>
+	<string>093c429a-285b-4e51-9213-2e5ee626364f</string>
 	<key>pivotal.push.platformUuidProduction</key>
 	<string>211ef0cb-acac-4816-ac46-a401f46ee463</string>
 	<key>pivotal.push.platformSecretProduction</key>
 	<string>3a02ec0e-85e3-47c6-8d5b-27ef3a0c386e</string>
 	<key>pivotal.auth.tokenUrl</key>
-	<string>http://datasync-authentication.geyser.cf-app.com/token</string>
+	<string>http://datasync-authentication.cdk.vcloud.cfms-apps.com</string>
 	<key>pivotal.auth.authorizeUrl</key>
-	<string>http://datasync-authentication.geyser.cf-app.com/authorize</string>
+	<string>http://datasync-authentication.cdk.vcloud.cfms-apps.com</string>
 	<key>pivotal.auth.redirectUrl</key>
 	<string>io.pivotal.ios.data://oauth2callback</string>
 	<key>pivotal.auth.clientId</key>
-	<string>ios-client</string>
+	<string>aedc2fcf-d7bb-4e80-8505-0540afe17974</string>
 	<key>pivotal.auth.clientSecret</key>
-	<string>006d0cea91f01a82cdc57afafbbc0d26c8328964029d5b5eae920e2fdc703169</string>
+	<string>AMtcNHQR6Ur89ZQcn8CNper-BGCRpOji4Jz1RMJ4eGO-r1R6jlre0kJ6ji1zvX-I2SSqqo1HlH9V-MVETH_pr0Y</string>
 	<key>pivotal.data.serviceUrl</key>
-	<string>http://datasync-datastore.geyser.cf-app.com/data/transit</string>
+	<string>http://datasync-datastore.cdk.vcloud.cfms-apps.com</string>
 	<key>pivotal.data.collisionStrategy</key>
 	<string>OptimisticLocking</string>
 </dict>
