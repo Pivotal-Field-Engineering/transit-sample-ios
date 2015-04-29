@@ -32,6 +32,16 @@
 				<string>io.pivotal.ios.fe.ttc</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>908042400278-i7t3h68226up98crdr64nu4h68m70tc2.apps.googleusercontent.com</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>apps.googleusercontent.com.908042400278-i7t3h68226up98crdr64nu4h68m70tc2</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0.6</string>

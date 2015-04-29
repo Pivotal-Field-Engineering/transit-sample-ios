@@ -8,6 +8,7 @@
 #import "TTCAppDelegate.h"
 #import "TTCUserDefaults.h"
 #import "TTCPushRegistrationHelper.h"
+#import <GoogleSignIn/GoogleSignIn.h>
 
 NSString *const kRemoteNotificationReceived = @"NOTIFICATION_RECEIVED";
 
@@ -34,6 +35,11 @@ NSString *const kRemoteNotificationReceived = @"NOTIFICATION_RECEIVED";
     [PCFAuth registerLogoutObserverBlock:^{
         [TTCPushRegistrationHelper unregister];
     }];
+    
+    [GIDSignIn sharedInstance].clientID = @"908042400278-i7t3h68226up98crdr64nu4h68m70tc2.apps.googleusercontent.com";
+    
+    // Additional scopes, if any
+    // [GIDSignIn sharedInstance].scopes = @[ @"other_scope" ];
     
     return YES;
 }
